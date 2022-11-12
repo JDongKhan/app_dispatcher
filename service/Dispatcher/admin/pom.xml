@@ -55,6 +55,12 @@
             <artifactId>framework</artifactId>
         </dependency>
 
+        <!-- 系统模块-->
+        <dependency>
+            <groupId>com.app</groupId>
+            <artifactId>system</artifactId>
+        </dependency>
+
         <!-- 定时任务-->
         <dependency>
             <groupId>com.app</groupId>
@@ -77,6 +83,11 @@
                 <version>2.1.1.RELEASE</version>
                 <configuration>
                     <fork>true</fork> <!-- 如果没有该配置，devtools不会生效 -->
+
+                    <!-- 解决启动端口被占用的问题 -->
+<!--                    <fork>false</fork>-->
+                    <!-- spring-boot:run 中文乱码解决 -->
+<!--                    <jvmArguments>-Dfile.encoding=UTF-8</jvmArguments>-->
                 </configuration>
                 <executions>
                     <execution>
@@ -94,7 +105,8 @@
                     <failOnMissingWebXml>false</failOnMissingWebXml>
                     <warName>${project.artifactId}</warName>
                 </configuration>   
-            </plugin>   
+            </plugin>
+
             <!-- YUI Compressor (CSS/JS压缩) 
             <plugin>
                 <groupId>net.alchim31.maven</groupId>
