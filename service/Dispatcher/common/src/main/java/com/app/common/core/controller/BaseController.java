@@ -29,7 +29,7 @@ import com.app.common.utils.StringUtils;
 /**
  * web层通用数据处理
  * 
- * @author ruoyi
+ * @author app
  */
 public class BaseController
 {

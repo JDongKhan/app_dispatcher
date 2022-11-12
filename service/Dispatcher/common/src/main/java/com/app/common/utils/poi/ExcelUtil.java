@@ -25,7 +25,7 @@ import java.util.UUID;
 import java.util.stream.Collectors;
 import javax.servlet.http.HttpServletResponse;
 
-import com.app.common.config.RuoYiConfig;
+import com.app.common.config.AppConfig;
 import com.app.common.utils.file.FileTypeUtils;
 import com.app.common.utils.file.FileUtils;
 import com.app.common.utils.file.ImageUtils;
@@ -88,7 +88,7 @@ import com.app.common.utils.StringUtils;
 /**
  * Excel相关处理
  * 
- * @author ruoyi
+ * @author app
  */
 public class ExcelUtil<T>
 {
@@ -1268,7 +1268,7 @@ public class ExcelUtil<T>
      */
     public String getAbsoluteFile(String filename)
     {
-        String downloadPath = RuoYiConfig.getDownloadPath() + filename;
+        String downloadPath = AppConfig.getDownloadPath() + filename;
         File desc = new File(downloadPath);
         if (!desc.getParentFile().exists())
         {

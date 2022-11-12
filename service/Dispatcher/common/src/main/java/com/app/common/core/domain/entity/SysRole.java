@@ -11,7 +11,7 @@ import com.app.common.core.domain.BaseEntity;
 /**
  * 角色表 sys_role
  * 
- * @author ruoyi
+ * @author app
  */
 public class SysRole extends BaseEntity
 {

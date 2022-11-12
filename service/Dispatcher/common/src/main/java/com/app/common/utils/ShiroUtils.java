@@ -12,7 +12,7 @@ import com.app.common.core.domain.entity.SysUser;
 /**
  * shiro 工具类
  * 
- * @author ruoyi
+ * @author app
  */
 public class ShiroUtils
 {

@@ -12,7 +12,7 @@ import com.app.common.core.domain.BaseEntity;
 /**
  * 部门表 sys_dept
  * 
- * @author ruoyi
+ * @author app
  */
 public class SysDept extends BaseEntity
 {

@@ -1,6 +1,6 @@
 package com.app.common.utils;
 
-import com.app.common.config.RuoYiConfig;
+import com.app.common.config.AppConfig;
 import com.app.common.utils.http.HttpUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -10,7 +10,7 @@ import com.app.common.constant.Constants;
 /**
  * 获取地址类
  * 
- * @author ruoyi
+ * @author app
  */
 public class AddressUtils
 {
@@ -29,7 +29,7 @@ public class AddressUtils
         {
             return "内网IP";
         }
-        if (RuoYiConfig.isAddressEnabled())
+        if (AppConfig.isAddressEnabled())
         {
             try
             {

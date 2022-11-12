@@ -8,7 +8,7 @@ import com.app.common.utils.html.EscapeUtil;
 /**
  * XSS过滤处理
  * 
- * @author ruoyi
+ * @author app
  */
 public class XssHttpServletRequestWrapper extends HttpServletRequestWrapper
 {

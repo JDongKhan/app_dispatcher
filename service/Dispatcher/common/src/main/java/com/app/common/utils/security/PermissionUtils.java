@@ -15,7 +15,7 @@ import com.app.common.utils.MessageUtils;
 /**
  * permission 工具类
  * 
- * @author ruoyi
+ * @author app
  */
 public class PermissionUtils
 {

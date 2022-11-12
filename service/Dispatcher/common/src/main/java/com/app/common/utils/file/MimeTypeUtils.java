@@ -3,7 +3,7 @@ package com.app.common.utils.file;
 /**
  * 媒体类型工具类
  * 
- * @author ruoyi
+ * @author app
  */
 public class MimeTypeUtils
 {

@@ -6,7 +6,7 @@ import com.app.common.utils.StringUtils;
 /**
  * sql操作工具类
  * 
- * @author ruoyi
+ * @author app
  */
 public class SqlUtil
 {

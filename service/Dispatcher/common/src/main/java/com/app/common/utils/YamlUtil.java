@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 /**
  * 配置处理工具类
  * 
- * @author yml
+ * @author app
  */
 public class YamlUtil
 {
