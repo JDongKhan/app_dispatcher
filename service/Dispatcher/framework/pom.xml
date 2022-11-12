@@ -74,7 +74,7 @@
         <!-- 系统模块-->
         <dependency>
             <groupId>com.app</groupId>
-            <artifactId>common</artifactId>
+            <artifactId>system</artifactId>
         </dependency>
 
     </dependencies>

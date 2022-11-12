@@ -55,12 +55,6 @@
             <artifactId>framework</artifactId>
         </dependency>
 
-        <!-- 系统模块-->
-        <dependency>
-            <groupId>com.app</groupId>
-            <artifactId>system</artifactId>
-        </dependency>
-
         <!-- 定时任务-->
         <dependency>
             <groupId>com.app</groupId>
